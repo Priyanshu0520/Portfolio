@@ -16,7 +16,7 @@ class AppStrings {
   // Home Screen
   static const String greeting = 'Hi, I\'m';
   static const String name = 'Priyanshu';
-  static const String tagline = 'Flutter Developer';
+  static const String tagline = 'Software Engineer';
   static const String description =
       'I build beautiful and functional mobile & web applications';
   static const String viewWork = 'View My Work';

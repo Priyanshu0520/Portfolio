@@ -2,10 +2,10 @@ import '../viewmodels/base_viewmodel.dart';
 
 /// ViewModel for Home Screen
 class HomeViewModel extends BaseViewModel {
-  String _greeting = 'Hi, I\'m';
-  String _name = 'Priyanshu';
-  String _tagline = 'Flutter Developer';
-  String _description = 'I build beautiful and functional mobile & web applications';
+  String _greeting = 'Hello, World! Let\'s code with Learning';
+  String _name = 'Priyanshu Gupta';
+  String _tagline = 'Software Engineer';
+  String _description = 'Software Engineer at Sahi';
 
   String get greeting => _greeting;
   String get name => _name;

@@ -75,7 +75,7 @@ class AppTheme {
     ),
 
     // Card Theme
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       elevation: AppSizes.cardElevation,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(AppSizes.radiusLG),
@@ -96,7 +96,7 @@ class AppTheme {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(AppSizes.radiusMD),
         ),
-        textStyle: GoogleFonts.poppins(
+        textStyle: GoogleFonts.lato(
           fontSize: AppSizes.fontMD,
           fontWeight: FontWeight.w600,
         ),
@@ -107,7 +107,7 @@ class AppTheme {
     textButtonTheme: TextButtonThemeData(
       style: TextButton.styleFrom(
         foregroundColor: AppColors.primary,
-        textStyle: GoogleFonts.poppins(
+        textStyle: GoogleFonts.lato(
           fontSize: AppSizes.fontMD,
           fontWeight: FontWeight.w600,
         ),

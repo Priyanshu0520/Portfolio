@@ -29,9 +29,6 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
       actions: [
         if (responsive.isDesktop) ...[
           _buildNavButton(context, AppStrings.navHome, AppRoutes.home),
-          _buildNavButton(context, AppStrings.navAbout, AppRoutes.about),
-          _buildNavButton(context, AppStrings.navProjects, AppRoutes.projects),
-          _buildNavButton(context, AppStrings.navContact, AppRoutes.contact),
           const SizedBox(width: AppSizes.spaceMD),
         ] else
           IconButton(
@@ -74,9 +71,6 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             _buildMobileNavItem(context, AppStrings.navHome, AppRoutes.home, Icons.home),
-            _buildMobileNavItem(context, AppStrings.navAbout, AppRoutes.about, Icons.person),
-            _buildMobileNavItem(context, AppStrings.navProjects, AppRoutes.projects, Icons.work),
-            _buildMobileNavItem(context, AppStrings.navContact, AppRoutes.contact, Icons.mail),
           ],
         ),
       ),
